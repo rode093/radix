@@ -1,3 +1,6 @@
+; Author: Mohaiminus Sakib
+; Author email: setu_93@hotmail.com, roddur093@gmail.com
+	
  .MODEL SMALL
  .STACK 100H
 

@@ -1,3 +1,6 @@
+; Author: Mohaiminus Sakib
+; Author email: setu_93@hotmail.com, roddur093@gmail.com
+									
  .MODEL SMALL
  .STACK 100H
 
@@ -139,7 +142,7 @@
 		
 		POP CX
 		
-		JNC @SKIP_0
+		JC @SKIP_0
 		
 		MOV SI,C_SARRAY_STACK 
 		MOV [SI], AH
@@ -170,7 +173,7 @@
 		
 		POP CX
 		
-		JC @SKIP_1
+		JNC @SKIP_1
 		
 	
 		MOV SI,C_SARRAY_STACK 
